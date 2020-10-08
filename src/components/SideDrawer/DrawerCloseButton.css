@@ -1,0 +1,33 @@
+.close_button{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    height:24px;
+    width:36px;
+    background:transparent;
+    border:none;
+    padding:0;
+    box-sizing:border-box;
+    z-index: 30;
+}
+
+.close-button:focus{
+    outline:none;
+}
+
+.close_button_line{
+    width:30px;
+    height:0.2rem;
+    background:rgb(233, 1, 1);
+    z-index:31;
+    transform:translateX(100%);
+    transition: transform 4s ease-out;
+}
+
+
+
+@media (min-width:769px){
+    .close_button{
+        display:none;
+    }
+}

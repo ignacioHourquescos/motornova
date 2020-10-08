@@ -29,7 +29,7 @@ class App extends Component{
     return (
       <div sytle={{height:'100%'}} className="App">
         <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
-        <SideDrawer show={this.state.sideDrawerOpen}/>
+        <SideDrawer show={this.state.sideDrawerOpen} drawerClickHandler={this.drawerToggleClickHandler}/>
         {backdrop}
         <main style={{marginTop:'64px'}}>
         <p>This is the page content</p>
