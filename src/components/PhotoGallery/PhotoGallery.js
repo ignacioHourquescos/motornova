@@ -1,22 +1,14 @@
-import React from "react";
-import { render } from "react-dom";
+
+import React from 'react';
 import Gallery from "react-photo-gallery";
-import { photos } from "./photos";
 
-/* popout the browser and maximize to see more rows! -> */
 
-const BasicRows = () => <Gallery photos={photos} />;
-
-export const photos = [
+const BasicRows = props =>{
+let photos = [
     {
-      src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
+      src:require('../../images/galeriaFotos/foto1.jpg'),
       width: 4,
       height: 3
-    },
-    {
-      src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
-      width: 1,
-      height: 1
     },
     {
       src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
@@ -28,13 +20,12 @@ export const photos = [
       width: 3,
       height: 4
     },
-    {
-      src: "https://source.unsplash.com/epcsn8Ed8kY/600x799",
-      width: 3,
-      height: 4
-    },
+  ]; 
+  return(
+  <Gallery photos={photos} />
+  )
 
+}
 
-  ];
-  
-  
+export default BasicRows; 
+

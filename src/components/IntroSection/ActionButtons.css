@@ -15,18 +15,18 @@
     opacity:1;
     border: 2px solid rgb(255, 255, 255);
     border-radius:15px;
-   background-color:transparent;
-   font-family: 'Commissioner', sans-serif;
-   font-size:1.5rem;
-   color:white;
-   animation-name: example;
-   animation-duration: 0.75s;
+    background-color:transparent;
+    font-family: 'Commissioner', sans-serif;
+    font-size:1rem;
+    color:white;
+    animation-name: example;
+    animation-duration: 0.4s;
 }
 
 @keyframes example {
-    0%   {background-color:rgb(255, 255, 255);  transform:translateY(-200px);}
-    100% {background-color:white;               transform:translateY(-0px);}
-  }
+    0%   { transform:scale(0); }
+    100% { transform:scale(1);}
+}
 
 .action_button:hover{
     -webkit-box-shadow: 1px 0px 40px -17px rgba(0,0,0,0.5);
@@ -35,7 +35,7 @@
     transform:scale(1.0);
     border: 0px solid rgb(255, 255, 255);
     background-color:rgb(13, 36, 41);
-    transition-duration:0.2s;
+    transition-duration:0.05s;
     transition-timing-function: ease-in-out;
    
 }

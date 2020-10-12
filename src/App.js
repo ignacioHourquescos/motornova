@@ -4,8 +4,7 @@ import Toolbar from       './components/Toolbar/Toolbar';
 import SideDrawer from    './components/SideDrawer/SideDrawer';
 import Backdrop from      './components/Backdrop/Backdrop';
 import IntroSection from  './components/IntroSection/IntroSection';
-import Gallery from "react-photo-gallery";
-import { photos } from './components/PhotoGallery/PhotoGallery'
+import BasicRows from     './components/PhotoGallery/PhotoGallery';
 
 class App extends Component{
   state={
@@ -36,6 +35,7 @@ class App extends Component{
         {backdrop}
         <main>
         <IntroSection/>
+        <BasicRows/>
 
         </main>
       </div>
