@@ -1,0 +1,15 @@
+.social_media_bar_crafted{
+    position: absolute;
+    top:11%;
+    left:3%;
+}
+
+
+@media (max-width:768px){
+    .social_media_bar_crafted{
+        position: absolute;
+        top:8%;
+        left:3%;
+        transform:scale(0.5);
+    }
+}

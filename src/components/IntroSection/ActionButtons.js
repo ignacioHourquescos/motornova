@@ -5,14 +5,12 @@ const ActionButtons = props =>(
 
         <div className="container_botones">
             <button className="action_button">
-                <span>accion1</span>
+                <span>AGENDAR UN TURNO</span>
             </button>
             <button className="action_button">
-                <span>accion2</span>
+                <span>VER SERVICIOS</span>
             </button>
-            <button className="action_button">
-                <span>accion3</span>
-            </button>
+        
         </div>
 
 );
