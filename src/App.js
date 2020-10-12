@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
 import './App.css';
-import Toolbar from './components/Toolbar/Toolbar';
-import SideDrawer from './components/SideDrawer/SideDrawer';
-import Backdrop from './components/Backdrop/Backdrop';
+import Toolbar from       './components/Toolbar/Toolbar';
+import SideDrawer from    './components/SideDrawer/SideDrawer';
+import Backdrop from      './components/Backdrop/Backdrop';
+import IntroSection from  './components/IntroSection/IntroSection';
 
 class App extends Component{
   state={
@@ -31,8 +32,8 @@ class App extends Component{
         <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
         <SideDrawer show={this.state.sideDrawerOpen} drawerClickHandler={this.drawerToggleClickHandler}/>
         {backdrop}
-        <main style={{marginTop:'64px'}}>
-        <p>This is the page content</p>
+        <main>
+        <IntroSection/>
         </main>
       </div>
     );

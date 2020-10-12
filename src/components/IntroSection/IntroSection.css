@@ -1,0 +1,71 @@
+.intro_section{
+    height:100vh;
+    width:100%;
+    background:url("../../images/fono.jpg");
+    
+    background-size: cover;
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+.container_logo{
+    width:100%;
+    padding:0;
+    margin:0;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    align-content:center;
+}
+
+.container_botones{
+    width:70%;
+    padding:1rem;
+    margin:0;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    align-content:center;
+    background-color:rgba(121, 41, 41, 0.507);
+}
+
+
+.logo{
+    width:40%;
+    border-radius: 20px;
+}
+
+/*botones importados */
+
+
+@media (max-width:768px){
+    .intro_section{
+    
+        margin:0;
+        padding:0;
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+    }
+    .logo{
+        width:80%;
+        border-radius: 15px;
+    }
+    .container_botones{
+        width:70%;
+        padding:1rem;
+        margin:0;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content: center;
+        align-content:center;
+        background-color:rgba(121, 41, 41, 0.507);
+    }
+    
+}
