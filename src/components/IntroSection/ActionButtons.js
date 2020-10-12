@@ -4,26 +4,15 @@ import './ActionButtons.css'
 const ActionButtons = props =>(
 
         <div className="container_botones">
-
-         
-
-
-            <div className="box-1">
-                <div className="btn btn-one">
-                <span>HOVER ME</span>
-                </div>
-            </div>
-            <div className="box-1">
-                <div className="btn btn-one">
-                <span>NOS</span>
-                </div>
-            </div>
-            <div className="box-1">
-                <div className="btn btn-one">
-                <span>HOVER ME</span>
-                </div>
-            </div>
- 
+            <button className="action_button">
+                <span>accion1</span>
+            </button>
+            <button className="action_button">
+                <span>accion2</span>
+            </button>
+            <button className="action_button">
+                <span>accion3</span>
+            </button>
         </div>
 
 );

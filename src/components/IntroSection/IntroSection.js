@@ -7,7 +7,7 @@ const IntroSection = props =>(
     <div className="intro_section" >
         
         <div className="container_logo">
-          <img className="logo" src={logo}></img>
+          <img className="logo" src={logo} alt="logo"></img>
         </div>
        <ActionButtons/>        
     </div>
