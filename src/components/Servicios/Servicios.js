@@ -4,15 +4,10 @@ import Grid from '@material-ui/core/Grid';
 import CardServicio from './CardServicios/CardServicios';
 import './Servicios.css'
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
 
-}));
 
 export default function Servicios() {
-  const classes = useStyles();
+
   const listaServicios= [ 
     {
       titulo:"Vetna de Repuestos",       
