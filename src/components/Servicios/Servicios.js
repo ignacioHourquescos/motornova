@@ -52,7 +52,7 @@ export default function Servicios() {
   ));
 
   return (
-    <div className="Container" className={classes.root}>
+    <div className="Container">
       <Grid container spacing={3}> 
         {listaServiciosMap}      
     
