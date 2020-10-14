@@ -4,6 +4,7 @@
     position:fixed;
     background:rgb(6, 32, 37);
     height:10%;
+    z-index:1;
 }
 
 .toolbar_navigation{

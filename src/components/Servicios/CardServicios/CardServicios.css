@@ -1,0 +1,46 @@
+.card_item{
+    padding:0rem;
+    margin:2rem;
+    
+}
+.imagen{
+    margin-left: auto;
+
+    height:100%;
+    margin-right: auto;
+ 
+}
+
+.imagen > img{
+    width:100%;
+}
+iGrid-spacing-xs-3 > .MuiGrid-item {
+    padding: 0px;
+}
+.MuiGrid-spacing-xs-3 {
+    width: calc(100% + 24px);
+    margin: -12px;
+    padding:0rem;
+}
+.makeStyles-root-1 {
+    flex-grow: 1;
+   margin:8rem;
+}
+
+
+
+/****************************************************************************************/
+@media (max-width:768px){
+    .card_item{
+        padding:0rem;
+        margin:0rem;
+    }
+    .makeStyles-root-1 {
+        flex-grow: 1;
+       margin:0.5rem;
+    }
+
+
+
+}
+

@@ -6,6 +6,8 @@ import Backdrop from      './components/Backdrop/Backdrop';
 import IntroSection from  './components/IntroSection/IntroSection';
 import BasicRows from     './components/PhotoGallery/PhotoGallery';
 
+import Servicios from './components/Servicios/Servicios';
+
 class App extends Component{
   state={
     sideDrawerOpen:false
@@ -35,7 +37,10 @@ class App extends Component{
         {backdrop}
         <main>
         <IntroSection/>
+        
+        <Servicios/>
         <BasicRows/>
+
 
         </main>
       </div>
