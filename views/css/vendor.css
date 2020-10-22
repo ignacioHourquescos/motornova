@@ -21,7 +21,7 @@
  * ===================================================================
  */
 .animated {
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 0s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
@@ -33,8 +33,8 @@
 }
 
 .animated.hinge {
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+  -webkit-animation-duration: 0s;
+  animation-duration: 0s;
 }
 
 .animated.bounceIn, .animated.bounceOut, .animated.flipOutX, .animated.flipOutY {

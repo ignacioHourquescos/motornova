@@ -78,7 +78,9 @@
   }
 
 
-
+  #slogan{
+    letter-spacing: 10px;
+  }
 
   @media only screen and (max-width: 480px) {
     .accordion{
@@ -99,12 +101,12 @@
       text-align: center;
     }
     #slogan{
-      font-size: 1.7rem;;
+      font-size: 1.7rem;
+      letter-spacing: 2px;
     }
   }
 
   
-
   #portfolio .intro-wrap {
     padding: 3rem 0 0rem;
     height:80em;
